@@ -1,0 +1,2 @@
+curl -X GET http://localhost:3030/fetchReviews/dealer/1
+[{"id":1,"name":"Berkly Shepley","dealership":1,"review":"Total grid-enabled service-desk! Great experience purchasing my sedan.","purchase":true,"purchase_date":"07/11/2020","car_make":"Audi","car_model":"A6","car_year":2010},{"id":2,"name":"Gwenora Robb","dealership":1,"review":"Friendly sales reps and smooth financing process.","purchase":true,"purchase_date":"09/19/2021","car_make":"Audi","car_model":"A4","car_year":2018}]

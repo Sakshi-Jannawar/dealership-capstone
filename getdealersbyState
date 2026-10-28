@@ -1,0 +1,2 @@
+curl -X GET http://localhost:3030/fetchDealers/KS
+[{"id":3,"city":"Topeka","state":"Kansas","st":"KS","address":"1200 SW 10th Ave","zip":"66604","lat":39.0473,"long":-95.6815,"short_name":"Sub-Ex","full_name":"Sub-Ex Kansas Motors"}]

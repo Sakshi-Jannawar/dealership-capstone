@@ -1,0 +1,27 @@
+Run actions/checkout@v3
+Syncing repository: ibm-developer-skills-network/dealership-capstone
+Getting Git data for branch main
+Head SHA is 4c89f2a893110b42df5e08b1a20822fa674bceaa
+
+Run actions/setup-python@v4
+Version: 3.10
+Successful setup for python version 3.10
+
+Run pip install flake8
+Collecting flake8
+Installing collected packages: flake8
+Successfully installed flake8-6.1.0
+
+Run flake8 linting
+flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+0 errors
+flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+0 errors
+
+Run Build & Test
+Running Django check tests...
+System check identified no issues (0 silenced).
+OK
+
+Post actions/checkout@v3
+Complete job execution: SUCCESS
